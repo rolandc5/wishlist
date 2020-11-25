@@ -1,0 +1,59 @@
+#snowFlakeContainer {
+  background-image: url("https://www.aiseesoft.com/images/resource/christmas-wallpaper-iphone/32-cartoon-snowman.jpg");
+  background-size: contain;
+}
+
+.blur {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(3px);
+  height: 100vh;
+	width: 100%;
+}
+
+.snowflake {
+  position: absolute;
+  height: 100vh;
+}
+
+.wishlist-container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.flex-direction {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.title-name {
+}
+
+.flex-middle {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
+  padding-bottom: 100px;
+}
+
+.wishlist-ul {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  z-index: 100;
+}
+
+.wishlist-li {
+  
+  padding: 0px;
+  margin: 0px;
+}
+
+.image-size {
+  height: 150px;
+  width: 150px;
+  border-radius: 5px;
+}
